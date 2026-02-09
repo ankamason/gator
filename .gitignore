@@ -1,0 +1,7 @@
+# Binaries
+gator
+*.exe
+
+# IDE
+.idea/
+.vscode/
