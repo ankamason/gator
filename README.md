@@ -70,7 +70,7 @@ CREATE DATABASE gator;
 
 Once you have Go and PostgreSQL set up, install Gator with:
 ```bash
-go install github.com/YOUR_GITHUB_USERNAME/gator@latest
+go install github.com/ankamason/gator@latest
 ```
 
 This downloads the code, compiles it, and puts the `gator` binary in your Go bin directory.
@@ -139,7 +139,7 @@ If you want to work on Gator yourself:
 2. Run database migrations with Goose
 3. Use `go run .` instead of `gator` to run your local code
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/gator.git
+git clone https://github.com/ankamason/gator.git
 cd gator
 go run . register yourname
 ```
